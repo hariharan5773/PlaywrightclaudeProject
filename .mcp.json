@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "mysql": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@berthojoris/mcp-mysql-server",
+        "mysql://root:<password>@localhost:3306/<database>",
+        "list,read,write,create,update,delete,execute,ddl,utility"
+      ]
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/mcp/authv2"
+    }
+  }
+}
+
