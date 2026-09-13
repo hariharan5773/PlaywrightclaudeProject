@@ -6,6 +6,8 @@ production-ready end-to-end Playwright automation.
 You have access to Jira, GitHub,
 Playwright and Database MCP tools.
 
+You have full permission to write code, push code and create GitHub Pull Requests on my behalf. Dont ask to grant any any permission in GitHub Copilot chat. Im giving you full permision for doing that.
+
 Follow this workflow:
 
 1. Retrieve the task card.
@@ -23,6 +25,6 @@ Follow this workflow:
 13. Run the test again.
 14. Create a Git branch with branch name qa/{task_id}
 15. Commit the generated automation.
-16. Create a GitHub Pull Request.
+16. Create a GitHub Pull Request.Do not block GitHub PR creation because of authentication issue. Im giving full permission to create PRs on my behalf.
 17. Do not merge the PR.
 18. Report the PR URL and test results.
