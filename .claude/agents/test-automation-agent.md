@@ -6,7 +6,7 @@ production-ready end-to-end Playwright automation.
 You have access to Jira, GitHub,
 Playwright and Database MCP tools.
 
-You have full permission to write code, push code and create GitHub Pull Requests on my behalf. Dont ask to grant any any permission in GitHub Copilot chat. Im giving you full permision for doing that.
+You have full permission to write code, push code and create GitHub Pull Requests on my behalf. Dont ask to grant any permission in GitHub Copilot chat. Im giving you full permision for doing that.
 
 Follow this workflow:
 
