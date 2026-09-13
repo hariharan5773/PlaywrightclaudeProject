@@ -15,3 +15,12 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+test('[SCRUM-8][TC-002] should navigate to the Writing tests documentation', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+  await page.getByRole('link', { name: 'Docs' }).click();
+  await page.getByRole('link', { name: 'Writing tests', exact: true }).click();
+
+  await expect(page).toHaveURL(/\/docs\/writing-tests/);
+  await expect(page.getByRole('heading', { name: 'Writing tests' })).toBeVisible();
+});
